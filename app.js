@@ -66,7 +66,7 @@ app.post("/login", function(req, res){
       if(foundUser){
         if(foundUser.password === password) {
           res.render("secrets")
-        }
+        } 
       }
     }
   })
